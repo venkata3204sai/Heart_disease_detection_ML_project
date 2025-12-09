@@ -50,7 +50,6 @@ Dataset sourced from Kaggle – Heart Disease Dataset.
 - Streamlit app for instant prediction based on user inputs
 
 ## Repository Structure
-CHANGE
 ```bash
 Heart_disease_detection_ML_project/
 │
@@ -110,7 +109,9 @@ pickle.dump(preprocessing_pipeline, open("pipeline.pkl", "wb"))
 ```
 
 ## Streamlit App Preview
-ADD PREVIEW
+<img width="1592" height="1125" alt="image" src="https://github.com/user-attachments/assets/9518a734-d1ea-4e7b-b5b1-7d8ed1b3e5dc" />
+<img width="1592" height="1125" alt="image" src="https://github.com/user-attachments/assets/ffeac710-4615-4865-9ad0-79adab813d6f" />
+
 
 ## License
 This project is licensed under the MIT License.
