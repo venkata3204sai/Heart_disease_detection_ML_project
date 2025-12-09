@@ -54,13 +54,19 @@ CHANGE
 ```bash
 Heart_disease_detection_ML_project/
 │
+├── codefiles/
+│   │
+│   ├── cvd_prediction.ipynb           # Notebook for training, tuning, metrics, plots
+│   ├── plot.py                        # PCA-based decision boundary visualisation
+│   └── preprocessing.py               # Data loading & preprocessing pipeline
+│
+├── datasets/
+│   │
+│   └── heart.csv                      # Dataset
+│
 ├── app.py                         # Streamlit UI for prediction
-├── preprocessing.py               # Data loading & preprocessing pipeline
-├── plot.py                        # PCA-based decision boundary visualisation
-├── cvd_prediction.ipynb           # Notebook for training, tuning, metrics, plots
 ├── models.pkl                     # Final trained ML model
 ├── pipeline.pkl                   # Preprocessing pipeline
-├── heart.csv                      # Dataset
 ├── LICENSE                        # MIT License
 └── README.md                      # This file
 ```
